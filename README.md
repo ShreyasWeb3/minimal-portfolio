@@ -27,11 +27,11 @@ Make sure you have Bun installed on your machine.
 
 1. **Clone the repository**
    ```bash
-   git clone <YOUR_GIT_URL>
+   git clone https://github.com/ShreyasWeb3/minimal-portfolio.git
 
 2. **Navigate to the project directory**
 ```bash
-cd dev-portfolio
+cd minimal-portfolio
 
 ```
 
