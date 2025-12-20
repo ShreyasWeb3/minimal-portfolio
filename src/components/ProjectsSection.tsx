@@ -93,7 +93,7 @@ const projects = [
       "Reimagined Tic-Tac-Toe by programming a custom board-shifting algorithm to prevent stalemates, featuring a fluid,type-safe UI",
     image: project2,
     liveUrl: "https://fourth-move.vercel.app/",
-    githubUrl: "https://github.com/ShreyasWeb3/sketch-pro",
+    githubUrl: "https://github.com/ShreyasWeb3/fourth-move",
     technologies: [
       { name: "React", icon: <ReactIcon /> },
       { name: "TypeScript", icon: <TSIcon /> },
