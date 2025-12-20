@@ -1,5 +1,5 @@
 
-# Dev Portfolio
+# Portfolio
 
 A modern, responsive developer portfolio website built to showcase my projects, skills, and professional experience. This project emphasizes clean UI/UX, performance, and code maintainability.
 
@@ -26,9 +26,9 @@ Make sure you have Bun installed on your machine.
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ShreyasWeb3/minimal-portfolio.git
-
+```bash
+git clone https://github.com/ShreyasWeb3/minimal-portfolio.git
+```
 2. **Navigate to the project directory**
 ```bash
 cd minimal-portfolio
@@ -51,7 +51,7 @@ bun dev
 
 
 
-The application will be available at `http://localhost:8080` (or the port shown in your terminal).
+The application will be available at `http://localhost:8080` .
 
 ## 📂 Project Structure
 
@@ -97,7 +97,3 @@ This project is open source and available under the [MIT License](https://www.go
 ---
 
 Built by Shreyas M B
-
-```
-
-```

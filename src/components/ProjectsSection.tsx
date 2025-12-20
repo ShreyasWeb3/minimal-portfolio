@@ -3,15 +3,24 @@ import { ProjectCard } from "./ProjectCard";
 import project1 from "@/assets/project1.png";
 import project2 from "@/assets/project2.png";
 
-
 const NextIcon = () => (
   <span className="text-foreground font-bold text-xs">N</span>
 );
 const TSIcon = () => (
   <span className="text-blue-400 font-bold text-xs">TS</span>
 );
-const JSIcon = () => (
-  <span className="text-blue-400 font-bold text-xs">JS</span>
+const FramerMotionIcon = () => (
+  <svg
+    className="w-4 h-4" 
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 0h16v8h-8zM4 8h8l8 8h-16zM4 16h8v8z"
+      fill="#AC1AF0"
+    />
+  </svg>
 );
 const ReactIcon = () => (
   <svg className="w-4 h-4" viewBox="0 0 24 24" fill="#61DAFB">
@@ -62,11 +71,11 @@ const PrismaIcon = () => <span className="text-foreground text-xs">◮</span>;
 const projects = [
   {
     id: "1",
-    title: "Hilink",
+    title: "Odessey",
     description:
       "A Minimalist trekking community platform enabling users to explore destinations and share reviews across all devices.",
     image: project1,
-    liveUrl: "https://odyssey-seven-rho.vercel.app/",
+    liveUrl: "https://wander-odyssey.vercel.app/",
     githubUrl: "https://github.com/ShreyasWeb3/odyssey",
     technologies: [
       { name: "Next.js", icon: <NextIcon /> },
@@ -79,18 +88,18 @@ const projects = [
   },
   {
     id: "2",
-    title: "Sketch Pro",
+    title: "The Fourth Move",
     description:
-      "An interactive drawing app powered by Next.js and Canvas API, with seamless state management via Redux Toolkit.",
+      "Reimagined Tic-Tac-Toe by programming a custom board-shifting algorithm to prevent stalemates, featuring a fluid,type-safe UI",
     image: project2,
-    liveUrl: "https://sketch-pro.vercel.app/",
+    liveUrl: "https://fourth-move.vercel.app/",
     githubUrl: "https://github.com/ShreyasWeb3/sketch-pro",
     technologies: [
-      { name: "Next.js", icon: <NextIcon /> },
-      { name: "JavaScript", icon: <JSIcon /> },
       { name: "React", icon: <ReactIcon /> },
+      { name: "TypeScript", icon: <TSIcon /> },
       { name: "Tailwind", icon: <TailwindIcon /> },
       { name: "Vercel", icon: <VercelIcon /> },
+            { name: "Framer Motion", icon: <FramerMotionIcon /> },
     ],
     status: "operational" as const,
   },
