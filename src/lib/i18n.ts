@@ -56,7 +56,7 @@ const resources = {
         latest: 'LATEST',
       },
       footer: {
-        rights: '© 2025 Shreyas. All rights reserved.',
+        rights: '© 2026 Shreyas. All rights reserved.',
         visitors: 'Visitors',
       },
     },
@@ -115,7 +115,7 @@ const resources = {
         latest: 'नवीनतम',
       },
       footer: {
-        rights: '© 2025 श्रेयस। सर्वाधिकार सुरक्षित।',
+        rights: '© 2026 श्रेयस। सर्वाधिकार सुरक्षित।',
         visitors: 'विज़िटर्स',
       },
     },
@@ -174,7 +174,7 @@ const resources = {
         latest: 'الأحدث',
       },
       footer: {
-        rights: '© 2025 شرياس. جميع الحقوق محفوظة.',
+        rights: '© 2026 شرياس. جميع الحقوق محفوظة.',
         visitors: 'الزوار',
       },
     },
@@ -233,7 +233,7 @@ const resources = {
         latest: 'NEUESTE',
       },
       footer: {
-        rights: '© 2025 Shreyas. Alle Rechte vorbehalten.',
+        rights: '© 2026 Shreyas. Alle Rechte vorbehalten.',
         visitors: 'Besucher',
       },
     },
@@ -292,7 +292,7 @@ const resources = {
         latest: '最新',
       },
       footer: {
-        rights: '© 2025 Shreyas. All rights reserved.',
+        rights: '© 2026 Shreyas. All rights reserved.',
         visitors: '訪問者数',
       },
     },
